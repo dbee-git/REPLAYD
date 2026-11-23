@@ -1,0 +1,8 @@
+clip_id,platform,content_type,views,likes,comments,shares,saves,published_at,age_hours
+example01,instagram,comeback,10000,850,40,150,230,2026-10-01,720
+example02,instagram,goal,8000,500,22,45,90,2026-10-02,720
+example03,youtube,save,5000,330,15,70,60,2026-10-03,720
+example04,instagram,comeback,15000,1200,65,240,320,2026-10-04,720
+example05,instagram,comeback,11000,900,40,175,150,2026-10-05,720
+example06,instagram,goal,9000,750,50,65,100,2026-10-06,720
+example07,instagram,goal,7000,490,27,47,50,2026-10-07,720

@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#070b0a" />
+  <meta name="description" content="REPLAYD — local-first football highlight discovery, creator clipping, and honest performance analytics." />
+  <title>REPLAYD — Find the moment. Make the reel.</title>
+  <link rel="stylesheet" href="/static/styles.css?v=0.6.0" />
+</head>
+<body>
+  <div class="page-noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="REPLAYD home" id="brand-home"><span class="brand-mark">R<span class="slash"></span></span><span>REPLAYD<span class="brand-dot">.</span></span></a>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#features" data-nav="landing">Features</a>
+      <a href="#workflow" data-nav="landing">How it works</a>
+      <button data-view="analytics" class="nav-as-link">Analytics</button>
+      <button data-view="campaigns" class="nav-as-link">Campaigns</button>
+      <button data-view="library" class="nav-as-link">My library</button>
+    </nav>
+    <div class="header-actions"><span class="local-pill"><span class="status-dot"></span> LOCAL-FIRST</span><button class="btn btn-primary btn-sm" data-view="studio">Launch Studio <span aria-hidden="true">↗</span></button></div>
+  </header>
+  <nav class="mobile-workspace-nav" aria-label="Mobile creator navigation">
+    <button data-view="studio">Studio</button><button data-view="analytics">Analytics</button><button data-view="campaigns">Campaigns</button><button data-view="library">Library</button>
+  </nav>
+
+  <main>
+    <div id="landing" class="view">
+      <section class="hero page-width" id="home">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-pulse"></span> THE FOOTBALL CREATOR WORKSPACE <span class="eyebrow-end">/ 01</span></div>
+          <h1>DON'T JUST<br/>WATCH THE <em>GAME.</em><br/><span class="stroke-text">OWN THE</span> <span class="lime">MOMENT.</span></h1>
+          <p class="hero-summary">Find standout football moments, shape the perfect clip and learn from what you publish. One creator-first workspace. No mandatory API keys.</p>
+          <div class="hero-buttons"><button class="btn btn-primary" data-view="studio">Open Creator Studio <span aria-hidden="true">↗</span></button><button class="btn btn-ghost" id="hero-demo"><span class="play-glyph">▶</span> See how it works</button></div>
+          <div class="hero-trust"><span>◈ LOCAL PROCESSING</span><span>✦ HUMAN-IN-CONTROL</span><span>⌁ REAL METRICS</span></div>
+        </div>
+        <div class="hero-art">
+          <div class="hero-topline"><span>ANALYZE / TRIM / EXPORT</span><span>EST. 2026</span></div>
+          <div class="pitch-visual" aria-label="Stylized football field with a detected-moment timeline">
+            <svg viewBox="0 0 640 440" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Football pitch illustration">
+              <defs><linearGradient id="fieldFade" x1="0" x2="1" y1="1" y2="0"><stop stop-color="#09231b"/><stop offset="1" stop-color="#142c1a"/></linearGradient><radialGradient id="fieldLight"><stop stop-color="#8eff43" stop-opacity=".24"/><stop offset="1" stop-color="#8eff43" stop-opacity="0"/></radialGradient></defs>
+              <rect width="640" height="440" fill="url(#fieldFade)"/><path d="M0 0h640v440H0z" fill="url(#fieldLight)"/><g stroke="#acffa2" stroke-opacity=".35" fill="none" stroke-width="1.5" transform="rotate(-11 320 220)"><rect x="40" y="42" width="560" height="356"/><path d="M320 42v356"/><circle cx="320" cy="220" r="58"/><circle cx="320" cy="220" r="3" fill="#acffa2"/><rect x="40" y="119" width="97" height="200"/><rect x="503" y="119" width="97" height="200"/><rect x="40" y="168" width="41" height="104"/><rect x="559" y="168" width="41" height="104"/><path d="M136 183 Q170 220 136 257 M504 183 Q470 220 504 257" /></g>
+              <g transform="translate(325 197)"><circle r="70" fill="#afff42" opacity=".075"/><circle r="43" fill="#afff42" opacity=".12"/><circle r="10" fill="#a6ff35"/><circle r="22" fill="none" stroke="#adff52" stroke-opacity=".7"/><path d="M0 -32v-24 M0 32v24 M-32 0h-24 M32 0h24" stroke="#acff62" stroke-width="2"/></g>
+              <g fill="#ff4b9b"><circle cx="211" cy="136" r="7"/><circle cx="479" cy="294" r="7"/><circle cx="190" cy="329" r="6"/></g><g fill="#f0de55"><circle cx="443" cy="142" r="7"/></g>
+            </svg>
+            <div class="field-overlay top"><span class="mini-bracket">LIVE SIGNAL / 001</span><span class="live-faux"><i></i> VISUAL SYSTEM</span></div>
+            <div class="field-overlay bottom"><span>00:52:14</span><span class="field-score">AUDIO <strong>+</strong> VISUAL</span></div>
+          </div>
+          <div class="mock-wave"><div class="mock-top"><span>HIGHLIGHT SIGNAL</span><span>KEY MOMENTS</span></div><div class="wave-bars" aria-hidden="true"><span style="--h:15%"></span><span style="--h:31%"></span><span style="--h:57%"></span><span style="--h:25%"></span><span style="--h:72%"></span><span style="--h:20%"></span><span style="--h:38%"></span><span style="--h:93%"></span><span style="--h:46%"></span><span style="--h:24%"></span><span style="--h:59%"></span><span style="--h:36%"></span><span style="--h:64%"></span><span style="--h:22%"></span><span style="--h:80%"></span><span style="--h:30%"></span><span style="--h:48%"></span><span style="--h:25%"></span><span style="--h:57%"></span><span style="--h:20%"></span><span style="--h:73%"></span><span style="--h:33%"></span><span style="--h:40%"></span><span style="--h:17%"></span><span style="--h:50%"></span><span style="--h:32%"></span><span style="--h:85%"></span><span style="--h:20%"></span></div><div class="wave-markers"><span>00:00</span><span class="pink">↑ CANDIDATE</span><span>90:00</span></div></div>
+          <div class="hero-art-footer"><span>CREATOR ASSISTANCE, NOT AUTOPILOT.</span><span>↗</span></div>
+        </div>
+      </section>
+
+      <section class="ticker" aria-label="Product capabilities"><div class="ticker-content"><span>SPOT THE ENERGY</span><b>✳</b><span>BUILD THE EDIT</span><b>✳</b><span>READ THE DATA</span><b>✳</b><span>REPEAT WHAT WORKS</span><b>✳</b></div></section>
+
+      <section class="section page-width" id="features"><div class="section-heading"><div><div class="eyebrow compact">/ CAPABILITIES</div><h2>BUILT FOR THE<br/><span class="lime">NEXT REPLAY.</span></h2></div><p>Everything you need to go from raw footage to a stronger edit—without an expensive platform stack.</p></div>
+        <div class="feature-grid">
+          <article class="feature-card featured"><span class="feature-index">01 / DISCOVER</span><div class="feature-icon lime">◎</div><h3>Moment discovery.</h3><p>Audio surges and visual-cut signals surface promising timestamps. You decide what deserves the spotlight.</p><div class="feature-bottom"><span>BASELINE DETECTOR</span><b>↗</b></div></article>
+          <article class="feature-card"><span class="feature-index">02 / CREATE</span><div class="feature-icon pink">✂</div><h3>Clip studio.</h3><p>Set precise boundaries, preview the source and export in landscape or creator-friendly 9:16 formats.</p><div class="feature-bottom"><span>FFMPEG ENGINE</span><b>↗</b></div></article>
+          <article class="feature-card"><span class="feature-index">03 / ANALYZE</span><div class="feature-icon yellow">▥</div><h3>Content intelligence.</h3><p>Bring your own post-performance CSV. Compare engagement patterns without depending on platform APIs.</p><div class="feature-bottom"><span>NO API KEYS</span><b>↗</b></div></article>
+          <article class="feature-card"><span class="feature-index">04 / EARN</span><div class="feature-icon pink">＄</div><h3>Campaign control.</h3><p>Manage paid logo and music placements, eligible views, RPM and settlement balances in one local ledger.</p><div class="feature-bottom"><span>CREATOR BUSINESS</span><b>↗</b></div></article>
+        </div>
+      </section>
+
+      <section class="section workflow page-width" id="workflow"><div class="eyebrow compact">/ THE PROCESS</div><h2>THREE MOVES.<br/><span class="stroke-text">ONE WORKFLOW.</span></h2><div class="step-grid">
+        <div class="step"><div class="step-number">01</div><h3>DROP THE FOOTAGE</h3><p>Start with a clip you have permission to edit. Upload locally and confirm the source.</p></div>
+        <div class="step"><div class="step-number pink">02</div><h3>FIND YOUR MOMENT</h3><p>Run candidate detection. Review the evidence, adjust start/end times and choose your frame.</p></div>
+        <div class="step"><div class="step-number">03</div><h3>EXPORT & LEARN</h3><p>Download an MP4, then return with your published post metrics to identify patterns.</p></div>
+      </div></section>
+      <section class="page-width bottom-cta"><div><div class="eyebrow compact">/ READY TO CREATE?</div><h2>MAKE THE<br/><span class="lime">NEXT ONE COUNT.</span></h2><p>Real clips. Real data. Your creative judgment.</p></div><button class="btn btn-primary" data-view="studio">Launch Studio <span>↗</span></button></section>
+    </div>
+
+    <section id="studio" class="view app-view hidden" aria-label="REPLAYD creator studio">
+      <div class="app-head page-width"><div><div class="eyebrow compact">/ WORKSPACE <span class="accent-divider">›</span> STUDIO</div><h1>THE <span class="lime">CUTTING ROOM.</span></h1><p>Bring the footage. We'll help find the moment.</p></div><button class="btn btn-outline btn-sm" data-view="library">View library ↗</button></div>
+      <div class="studio-layout page-width">
+        <aside class="side-stack">
+          <div class="panel upload-panel"><div class="panel-title"><span class="step-chip">01</span><span>SOURCE FOOTAGE</span></div><label class="drop-zone" id="dropzone" for="video-file"><input type="file" accept="video/mp4,video/quicktime,video/x-matroska,video/webm,.mkv,.mov" id="video-file" hidden/><span class="upload-icon">↥</span><strong>Drop a match clip</strong><small>or click to browse files</small><span class="upload-details">MP4 / MOV / MKV / WEBM · UP TO 350MB</span></label><button id="demo-file" class="text-button">Use the synthetic test video instead ↗</button><div class="hint">Up to 20 minutes per source in this first release. No upload leaves your computer when running locally.</div></div>
+          <div class="panel analyze-panel"><div class="panel-title"><span class="step-chip">02</span><span>DETECTION SETTINGS</span></div><label for="threshold">Audio surge sensitivity <span id="threshold-value" class="lime">0.25</span></label><input id="threshold" type="range" min="0.05" max="0.85" step="0.05" value="0.25"/><div class="range-ends"><span>MORE CANDIDATES</span><span>FEWER CANDIDATES</span></div><div class="form-field" style="margin-top:16px"><label for="footage-mode">FOOTAGE TYPE</label><select id="footage-mode"><option value="compilation" selected>Edited highlights / compilation</option><option value="full_match">Long match / continuous footage</option></select></div><div class="form-field" style="margin-top:10px"><label for="moment-limit">MAXIMUM SUGGESTIONS</label><select id="moment-limit"><option value="5">5 moments</option><option value="10" selected>10 moments</option><option value="20">20 moments</option><option value="30">30 moments</option></select></div><button class="btn btn-primary btn-full" id="analyze-btn" disabled>◉ &nbsp; Analyze moments</button><p class="hint">Finds audio and scene-change suggestions. Clips start roughly 5 seconds before the peak and keep 18 seconds afterward. Review before export.</p></div>
+          <div class="panel panel-library"><div class="panel-title"><span class="step-chip">↗</span><span>LAST EXPORT</span></div><div id="last-export" class="empty-mini">Your rendered clip will appear here.</div></div>
+        </aside>
+        <div class="studio-main"><div class="panel video-panel"><div class="panel-top"><div><span class="panel-label">VIDEO / SOURCE PREVIEW</span><h3 id="video-name">NO SOURCE SELECTED</h3></div><span id="video-badge" class="status-tag">WAITING FOR VIDEO</span></div><div class="video-frame" id="video-frame"><video id="player" controls playsinline preload="metadata" class="hidden"></video><div id="video-placeholder" class="video-placeholder"><div class="placeholder-grid"></div><div class="placeholder-icon">▶</div><span>YOUR MATCH GOES HERE</span><small>UPLOAD A VIDEO TO START</small></div></div><div class="video-bottom"><div id="video-meta">READY FOR YOUR NEXT EDIT</div><div><span class="status-dot"></span> LOCAL ENGINE</div></div></div>
+          <div class="panel waveform-panel"><div class="panel-top"><div><span class="panel-label">SIGNAL / TIMELINE</span><h3>EXPLORE THE PEAKS</h3></div><span id="candidate-count" class="status-tag green">0 CANDIDATES</span></div><div id="signal-chart" class="signal-chart empty-chart"><span>RUN ANALYSIS TO SEE THE SIGNAL</span></div><div class="timeline-legend"><span><i class="legend-dot lime-bg"></i> AUDIO SIGNAL</span><span><i class="legend-dot pink-bg"></i> SUGGESTED MOMENT (AUDIO OR VISUAL)</span><span>CLICK A MARKER TO SEEK</span></div></div>
+          <div class="panel moment-panel"><div class="panel-top"><div><span class="panel-label">MOMENT QUEUE</span><h3>SUGGESTED HIGHLIGHTS</h3></div><span class="tiny-sub">REVIEW BEFORE EXPORT</span></div><div id="moments-list" class="moments-list"><div class="empty-moments"><span>◎</span><p>No moments yet.</p><small>Analyze footage to surface clip candidates. You can also trim manually.</small></div></div></div>
+        </div>
+        <aside class="side-stack edit-stack"><div class="panel edit-panel"><div class="panel-title"><span class="step-chip pink-chip">03</span><span>CLIP EDITOR</span></div><div class="edit-active"><small>SELECTED MOMENT</small><strong id="selected-moment">MANUAL CLIP</strong></div><div class="form-field"><label for="clip-start">START / MM:SS</label><input id="clip-start" type="text" inputmode="decimal" placeholder="03:45.25" value="00:00" autocomplete="off"/></div><div class="form-field"><label for="clip-end">END / MM:SS</label><input id="clip-end" type="text" inputmode="decimal" placeholder="04:15.25" value="00:30" autocomplete="off"/></div><p class="hint" style="margin-top:-8px">Use MM:SS or MM:SS.xx (example: 01:30). Clip boundaries remain editable.</p><div class="form-field"><label for="clip-layout">OUTPUT FORMAT</label><select id="clip-layout"><option value="Portrait · contain">9:16 — full frame + padding</option><option value="Portrait · crop">9:16 — center crop</option><option value="Original">Original aspect ratio</option></select></div><div class="frame-note"><span>ⓘ</span><span>Center cropping may cut the ball or player out. Full-frame padding is the safer football default.</span></div><button id="export-btn" class="btn btn-primary btn-full" disabled>✂ &nbsp; Render clip ↗</button><div id="export-feedback" class="small-feedback"></div></div>
+        <div class="panel identity-panel"><div class="id-glyph">R<span>.</span></div><div><strong>EDIT WITH INTENT.</strong><p>REPLAYD is an assistant, not an automated referee.</p></div></div></aside>
+      </div>
+    </section>
+
+    <section id="analytics" class="view app-view hidden" aria-label="Creator analytics">
+      <div class="page-width analytics-v3">
+        <div class="app-head analytics-head">
+          <div>
+            <div class="eyebrow compact">/ WORKSPACE <span class="accent-divider">›</span> FOOTBALL CREATOR STATS</div>
+            <h1>SEE WHICH <span class="lime">REELS CONNECT.</span></h1>
+            <p>Find your most saved football edits, compare goals and comebacks, and improve your next Reel. No API key needed.</p>
+          </div>
+          <div class="analytics-header-actions">
+            <a class="btn btn-outline btn-sm" href="/api/sample-analytics" download>↓ Download demo CSV</a>
+            <button id="analytics-demo-btn" class="btn btn-primary btn-sm">↗ Try demo insights</button>
+          </div>
+        </div>
+        <div class="analytics-banner"><span class="pulse-spot"></span> PRIVATE BY DEFAULT <span class="dot-gap">·</span> CSV / MANUAL / PASTE <span class="dot-gap">·</span> NO FABRICATED METRICS <span id="analytics-source-badge" class="analytics-source-badge">LOCAL ANALYTICS</span></div>
+        <div class="analytics-intro-grid">
+          <div class="panel analytics-entry-panel">
+            <div class="panel-top"><div><span class="panel-label">01 / IMPORT OR ADD</span><h3>YOUR CONTENT DATA</h3></div></div>
+            <div class="entry-tabs" role="tablist" aria-label="Analytics input method">
+              <button type="button" data-entry="manual" class="entry-tab active">Quick add</button>
+              <button type="button" data-entry="upload" class="entry-tab">CSV import</button>
+              <button type="button" data-entry="paste" class="entry-tab">Paste</button>
+            </div>
+            <form id="analytics-manual-form" class="analytics-entry-body">
+              <div class="entry-grid">
+                <label>Views <input name="views" type="number" min="0" step="1" placeholder="e.g. 125000" /></label>
+                <label>Shares <input name="shares" type="number" min="0" step="1" placeholder="Optional" /></label>
+                <label>Likes <input name="likes" type="number" min="0" step="1" placeholder="Optional" /></label>
+                <label>Saves <input name="saves" type="number" min="0" step="1" placeholder="Optional" /></label>
+                <label>Comments <input name="comments" type="number" min="0" step="1" placeholder="Optional" /></label>
+                <label>Reach <input name="reach" type="number" min="0" step="1" placeholder="Optional" /></label>
+                <label>Platform <select name="platform"><option value="instagram">Instagram</option><option value="youtube">YouTube</option><option value="tiktok">TikTok</option><option value="x">X</option><option value="other">Other</option></select></label>
+                <label>Content type <input name="content_type" placeholder="Goal / Comeback / Rivalry" /></label>
+                <label>Duration · seconds <input name="duration_sec" type="number" min="0" step="0.1" placeholder="Optional" /></label>
+                <label>Avg watch · seconds <input name="avg_watch_sec" type="number" min="0" step="0.1" placeholder="Optional" /></label>
+                <label>Published at <input name="published_at" type="date" /></label>
+                <label>Post ID <input name="clip_id" placeholder="Optional identifier" /></label>
+              </div>
+              <div class="entry-form-bottom"><p class="hint">Only one engagement metric is necessary. Missing fields stay unknown, not zero.</p><button class="btn btn-primary" type="submit" id="analytics-manual-save">Save post ↗</button></div>
+            </form>
+            <div id="analytics-upload-form" class="analytics-entry-body hidden">
+              <label for="analytics-file" class="drop-zone analytics-file-drop"><input type="file" id="analytics-file" accept=".csv,.tsv,text/csv,text/tab-separated-values" hidden/><span class="upload-icon">⇧</span><strong>Choose CSV or TSV</strong><small>Flexible columns, partial insights and common field names accepted</small><span class="upload-details">VIEWS / LIKES / SHARES — ANY COMBINATION</span></label>
+              <p class="hint">Import multiple times without duplicating posts with the same platform + post ID. Available values update; missing fields do not erase known values.</p>
+            </div>
+            <div id="analytics-paste-form" class="analytics-entry-body hidden">
+              <label class="paste-title" for="analytics-paste-input">Paste CSV or tab-separated spreadsheet rows</label>
+              <textarea id="analytics-paste-input" rows="6" placeholder="post_id,platform,views,shares,content_type&#10;reel_01,instagram,105000,3100,comeback"></textarea>
+              <button id="analytics-paste-submit" class="btn btn-primary btn-sm" type="button">Analyze pasted rows ↗</button>
+              <p class="hint">Tip: copying cells directly from Excel or Google Sheets usually produces tab-separated rows.</p>
+            </div>
+            <div id="analytics-import-feedback" class="analytics-import-feedback" role="status" aria-live="polite">Ready for your first creator insight.</div>
+          </div>
+          <div class="analytics-main-stats">
+            <div class="panel analytics-summary-head"><span class="panel-label">02 / YOUR REEL STATS</span><div><h3>YOUR REELS AT A GLANCE</h3><span id="analytics-post-count" class="stat-pill">0 POSTS</span></div><p>Only observed metrics. Cards show “—” when no data exists.</p></div>
+            <div id="analytics-metric-cards" class="analytics-v3-metrics"></div>
+            <div class="panel analytics-quality"><div class="panel-top"><h3>DATA COVERAGE</h3><span class="quality-caption">KNOWN FIELDS / TOTAL POSTS</span></div><div id="analytics-coverage" class="coverage-pills"></div><p class="hint">Totals use available records only. Incomplete data is never silently counted as zero.</p></div>
+          </div>
+        </div>
+        <div id="analytics-empty" class="panel analytics-empty-new"><div class="empty-visual">↗</div><div><span class="panel-label">YOUR NEXT ADVANTAGE</span><h3>LET THE NUMBERS SPEAK.</h3><p>Add a post or try the synthetic demo dataset to unlock category, platform, duration and publishing comparisons.</p></div></div>
+        <div id="analytics-filled" class="hidden">
+          <div class="analytics-section-title"><div><span class="panel-label">03 / DEEP DIVE</span><h2>WHAT DO FANS <span class="lime">SAVE?</span></h2></div><div class="analytics-filters"><label>Platform <select id="analytics-platform-filter"><option value="all">All platforms</option></select></label><label>Content <select id="analytics-type-filter"><option value="all">All content types</option></select></label></div></div>
+          <div class="analytics-chart-grid">
+            <div class="panel analytics-chart-panel"><div class="chart-head"><div><span class="chart-kicker">FOOTBALL CONTENT</span><h3>GOALS, COMEBACKS OR SKILLS?</h3></div><select id="analytics-metric-select" aria-label="Choose comparison metric"><option value="median_saves_1000" selected>Saves / 1K views</option><option value="median_shares_1000">Shares / 1K views</option><option value="median_views">Median views</option></select></div><div id="analytics-content-chart" class="analytics-bars"></div><p class="chart-foot">Medians, only when at least 3 posts have the needed metrics.</p></div>
+            <div class="panel analytics-chart-panel"><div class="chart-head"><div><span class="chart-kicker">YOUR CHANNELS</span><h3>WHERE FANS SAVE MORE</h3></div></div><div id="analytics-platform-chart" class="analytics-bars"></div><p class="chart-foot">Compare platforms cautiously: metrics and audiences differ.</p></div>
+            <div class="panel analytics-chart-panel"><div class="chart-head"><div><span class="chart-kicker">CLIP LENGTH</span><h3>SHORT VS LONG REELS</h3></div></div><div id="analytics-length-chart" class="analytics-bars"></div><p class="chart-foot">Compare saves per 1,000 views by clip length. This does not establish cause.</p></div>
+            <div class="panel analytics-chart-panel"><div class="chart-head"><div><span class="chart-kicker">YOUR BEST POSTS</span><h3>MOST SAVED REELS</h3></div></div><div id="analytics-day-chart" class="analytics-bars"></div><p class="chart-foot">Your best save rates among posts with at least 1,000 views and recorded saves; small samples are less reliable.</p></div>
+          </div>
+          <div class="analytics-bottom-grid">
+            <div class="panel analytics-recommendations"><div class="panel-top"><h3>WHAT TO TRY NEXT</h3><span class="status-tag">DESCRIPTIVE ONLY</span></div><div id="analytics-recommendations-list"></div></div>
+            <div class="panel analytics-video-depth"><div class="panel-top"><h3>HOW LONG FANS WATCH</h3><span class="status-tag pink-tag">OPTIONAL DATA</span></div><div id="analytics-watch-depth"></div></div>
+          </div>
+          <div class="panel analytics-table-panel analytics-v3-table"><div class="panel-top"><div><span class="panel-label">04 / RECORDS</span><h3>YOUR REEL RECORDS</h3></div><span class="tiny-sub" id="analytics-table-meta">CURRENT DATASET</span></div><div class="table-scroller" id="analytics-posts-table"></div><p class="hint">Delete incorrect entries individually. Demo data is simulated and should never be represented as actual campaign performance.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="campaigns" class="view app-view hidden" aria-label="Campaign management">
+      <div class="page-width">
+        <div class="app-head campaign-page-head">
+          <div><div class="eyebrow compact">/ WORKSPACE <span class="accent-divider">›</span> CAMPAIGNS</div>
+            <h1>TRACK THE <span class="lime">PAYDAY.</span></h1>
+            <p>Manage paid clipping work: logos, music, RPM, approved views and settlements. Creator-owned records only.</p>
+          </div>
+          <div class="campaign-head-actions"><a class="btn btn-outline btn-sm" href="/api/campaign-reports/summary.csv" download>↓ Export CSV</a><button id="campaign-new" class="btn btn-primary btn-sm">+ New campaign</button></div>
+        </div>
+        <!-- Compact opportunities guide: independently linked third parties, not REPLAYD integrations. -->
+        <section class="panel clipping-guide" aria-label="Understanding clipping and finding campaign opportunities">
+          <div class="clipping-guide-top">
+            <div class="clipping-guide-copy">
+              <div class="guide-label">/ THE CREATOR ECONOMY</div>
+              <h3>CREATE CLIPS. <span>GET PAID FOR REACH.</span></h3>
+              <p>Clipping means turning <strong>authorized</strong> creator or brand footage into short-form posts. Some campaigns pay by approved views; others pay a fixed fee or from a reward pool. Each brief sets its own rules.</p>
+              <div class="clipping-steps" aria-label="How paid clipping usually works">
+                <span><b>01</b> Find a brief</span><span><b>02</b> Create &amp; post</span><span><b>03</b> Submit &amp; track</span>
+              </div>
+            </div>
+            <div class="discord-spotlight">
+              <div class="discord-spotlight-head">
+                <svg viewBox="0 0 24 24" aria-label="Discord" role="img"><path fill="currentColor" d="M19.73 4.65a18.4 18.4 0 0 0-4.46-1.4l-.54 1.1a16.8 16.8 0 0 0-5.46 0l-.54-1.1a18.5 18.5 0 0 0-4.46 1.4C1.47 8.8.7 12.85 1.08 16.84a18.6 18.6 0 0 0 5.47 2.77l1.17-1.9c-.63-.24-1.24-.54-1.82-.88l.45-.35a13.8 13.8 0 0 0 11.3 0l.45.35c-.58.34-1.19.64-1.82.88l1.17 1.9a18.6 18.6 0 0 0 5.47-2.77c.46-4.63-.78-8.65-3.19-12.19ZM8.32 14.38c-1.02 0-1.85-.92-1.85-2.05s.81-2.05 1.85-2.05c1.05 0 1.88.93 1.86 2.05 0 1.13-.82 2.05-1.86 2.05Zm7.36 0c-1.03 0-1.85-.92-1.85-2.05s.82-2.05 1.85-2.05c1.05 0 1.87.93 1.85 2.05 0 1.13-.82 2.05-1.85 2.05Z"/></svg>
+                <div><div class="guide-label discord-label">DISCORD COMMUNITIES</div><h4>WHERE BRIEFS GET SHARED.</h4></div>
+              </div>
+              <p>Campaign teams often announce new briefs, eligibility rules and submission steps in Discord servers. Read <strong>#rules</strong> and <strong>#announcements</strong>, then follow the campaign's official submission link. Being in a server doesn't guarantee work or payment.</p>
+              <div class="discord-links">
+                <a href="https://discord.com/servers/content-rewards-1464347192545251422" target="_blank" rel="noopener noreferrer">Content Rewards community ↗</a>
+                <a href="https://discord.com/servers/reach-clipping-1196869566484205748" target="_blank" rel="noopener noreferrer">Reach Clipping community ↗</a>
+              </div>
+            </div>
+          </div>
+          <div class="opportunity-directory">
+            <div class="opportunity-directory-header"><div><span class="guide-label">/ EXPLORE OPPORTUNITIES</span><p>Established platforms to research — listings and payouts change.</p></div><span class="opportunity-independent">8 verified destinations</span></div>
+            <div class="opportunity-grid">
+              <a href="https://whop.com/" target="_blank" rel="noopener noreferrer" class="opportunity-brand"><span class="opportunity-mark brand-whop" aria-hidden="true">W</span><span><strong>Whop</strong><small>Communities &amp; payouts</small></span><i aria-hidden="true">↗</i></a>
+              <a href="https://contentrewards.com/c/discover" target="_blank" rel="noopener noreferrer" class="opportunity-brand"><span class="opportunity-mark brand-content" aria-hidden="true">CR</span><span><strong>Content Rewards</strong><small>Campaign marketplace</small></span><i aria-hidden="true">↗</i></a>
+              <a href="https://www.clipster.com/" target="_blank" rel="noopener noreferrer" class="opportunity-brand"><span class="opportunity-mark brand-clipster" aria-hidden="true">C</span><span><strong>Clipster</strong><small>Clipping &amp; music briefs</small></span><i aria-hidden="true">↗</i></a>
+              <a href="https://clipper.spadeclipping.com/" target="_blank" rel="noopener noreferrer" class="opportunity-brand"><span class="opportunity-mark brand-spade" aria-hidden="true">♠</span><span><strong>Spade</strong><small>Campaigns &amp; community</small></span><i aria-hidden="true">↗</i></a>
+            </div>
+            <details class="opportunity-more"><summary>Explore 4 more platforms <span aria-hidden="true">⌄</span></summary>
+              <div class="opportunity-grid opportunity-grid-more">
+                <a href="https://clipping.net/creators" target="_blank" rel="noopener noreferrer" class="opportunity-brand"><span class="opportunity-mark brand-clipping" aria-hidden="true">✂</span><span><strong>CLIPPING</strong><small>Pay-per-view network</small></span><i aria-hidden="true">↗</i></a>
+                <a href="https://starlet.gg/" target="_blank" rel="noopener noreferrer" class="opportunity-brand"><span class="opportunity-mark brand-starlet" aria-hidden="true">★</span><span><strong>Starlet</strong><small>Creator distribution</small></span><i aria-hidden="true">↗</i></a>
+                <a href="https://vyro.com/creators" target="_blank" rel="noopener noreferrer" class="opportunity-brand"><span class="opportunity-mark brand-vyro" aria-hidden="true">V</span><span><strong>Vyro</strong><small>Performance campaigns</small></span><i aria-hidden="true">↗</i></a>
+                <a href="https://www.clipur.com/" target="_blank" rel="noopener noreferrer" class="opportunity-brand"><span class="opportunity-mark brand-clipur" aria-hidden="true">C.</span><span><strong>Clipur</strong><small>Vetted clipper network</small></span><i aria-hidden="true">↗</i></a>
+              </div>
+            </details>
+            <small class="guide-disclaimer">External sites, not REPLAYD partners. Verify eligibility, rights to footage/music, rates, regional rules and payout terms before participating. Whop and Content Rewards are distinct services.</small>
+          </div>
+        </section>
+        <div id="campaign-overview" class="campaign-overview" aria-label="Campaign portfolio summary"></div>
+        <div class="campaign-workspace">
+          <aside class="panel campaign-sidebar">
+            <div class="panel-title"><span class="step-chip">01</span> CAMPAIGN ROSTER</div>
+            <div class="form-field campaign-filter"><label for="campaign-source-filter">MARKETPLACE</label><select id="campaign-source-filter"><option value="All">All sources</option><option value="Whop">Whop</option><option value="Content Rewards">Content Rewards</option><option value="CLIPPING">CLIPPING</option><option value="Clipster">Clipster</option><option value="Spade">Spade</option><option value="Starlet">Starlet</option><option value="Vyro">Vyro</option><option value="Clipur">Clipur</option><option value="Discord">Discord community</option><option value="Direct">Direct brands</option><option value="Other">Other</option></select></div>
+            <div id="campaign-list" class="campaign-list"><p class="hint">Your saved campaigns will appear here.</p></div>
+            <div class="hint campaign-note">All records stay in your local SQLite database. No scraping or paid integrations.</div>
+          </aside>
+          <div class="campaign-content">
+            <div id="campaign-form-panel" class="panel campaign-form-panel hidden">
+              <div class="panel-top"><div><div class="panel-label">CAMPAIGN SETTINGS</div><h3 id="campaign-form-title">NEW PAID CAMPAIGN</h3></div><button id="campaign-cancel" class="campaign-text-btn">Cancel ×</button></div>
+              <form id="campaign-form" class="campaign-form-grid">
+                <label>Campaign name <input id="camp-title" name="title" placeholder="e.g. Matchday promotion" maxlength="120" required /></label>
+                <label>Brand / client <input id="camp-brand" name="brand" placeholder="e.g. Demo Sports" maxlength="120" required /></label>
+                <label>Campaign marketplace <select id="camp-source"><option value="Direct">Direct brand</option><option value="Whop">Whop</option><option value="Content Rewards">Content Rewards</option><option value="CLIPPING">CLIPPING</option><option value="Clipster">Clipster</option><option value="Spade">Spade</option><option value="Starlet">Starlet</option><option value="Vyro">Vyro</option><option value="Clipur">Clipur</option><option value="Discord">Discord community</option><option value="Other">Other platform</option></select></label>
+                <label>Placement type <select id="camp-type"><option value="logo">Logo overlay</option><option value="music">Music placement</option><option value="both">Logo + music</option></select></label>
+                <label>RPM · $ per 1 million eligible views <input id="camp-rpm" type="number" inputmode="decimal" min="0.01" max="100000" step="0.01" placeholder="e.g. 300" required /></label>
+                <label>Preferred minimum duration (seconds) <input id="camp-min" type="number" min="1" max="3600" value="15" required /></label>
+                <label>Preferred maximum duration (seconds) <input id="camp-max" type="number" min="1" max="3600" value="60" required /></label>
+                <label>Campaign earning cap · $ (optional) <input id="camp-cap" type="number" min="0" max="1000000" step="0.01" placeholder="Leave empty if no cap" /></label>
+                <label>Requirements / notes <textarea id="camp-notes" rows="3" maxlength="1500" placeholder="Placement position, soundtrack, hashtag, approval instructions…"></textarea></label>
+                <div class="campaign-actions"><button type="submit" class="btn btn-primary" id="campaign-save">Save campaign ↗</button><button type="button" class="btn btn-outline" id="campaign-demo-fields">Fill example values</button></div>
+              </form>
+            </div>
+            <div id="campaign-empty" class="panel campaign-placeholder"><div class="display-symbol">$</div><h3>EVERY CAMPAIGN. ONE PLAYBOOK.</h3><p>Create a paid logo or music campaign. Add clips, record eligible views and log settlements.</p><button id="campaign-empty-new" class="btn btn-primary btn-sm">Create first campaign ↗</button></div>
+            <div id="campaign-detail" class="hidden">
+              <div class="panel campaign-detail-head">
+                <div class="campaign-heading-line"><div><div class="panel-label">ACTIVE CAMPAIGN / LEDGER</div><h3 id="campaign-active-name">CAMPAIGN</h3><p id="campaign-active-subtitle" class="hint"></p></div><button id="campaign-edit" class="btn btn-outline btn-sm">Edit settings</button></div>
+                <div class="campaign-conditions"><span id="campaign-marketplace-tag" class="condition-pill"></span><span id="campaign-requirement-tag" class="condition-pill pink-tag"></span><span id="campaign-rpm-tag" class="condition-pill"></span><span id="campaign-duration-tag" class="condition-pill"></span><span id="campaign-cap-tag" class="condition-pill hidden"></span></div>
+                <div class="campaign-status-control"><label for="campaign-status">Campaign status</label><select id="campaign-status"><option value="active">Active</option><option value="paused">Paused</option><option value="completed">Completed</option></select><button id="campaign-update-status" class="btn btn-outline btn-sm">Update status</button></div>
+                <p id="campaign-notes-display" class="hint hidden"></p>
+              </div>
+              <div id="campaign-metric-cards" class="campaign-metric-cards"></div>
+              <div class="panel campaign-guidance"><span class="panel-label">PAYMENT MATH</span><p><strong>Confirmed earnings</strong> = approved eligible views × RPM / 1,000,000 (subject to campaign cap). <strong>Outstanding</strong> = confirmed earnings − settled payments. Pending submissions are estimates only; public views are never automatically billable.</p></div>
+              <div class="panel campaign-submissions-panel">
+                <div class="panel-top"><div><span class="panel-label">02 / SUBMISSIONS</span><h3>TRACK YOUR CLIPS</h3></div><button id="campaign-add-submission" class="btn btn-primary btn-sm">+ Add clip / Reel</button></div>
+                <div id="campaign-submissions-list" class="campaign-table-scroll"></div>
+              </div>
+              <div id="submission-form-panel" class="panel hidden">
+                <div class="panel-top"><h3 id="submission-form-title">LOG A CLIP</h3><button id="submission-cancel" class="campaign-text-btn">Cancel ×</button></div>
+                <form id="submission-form" class="campaign-form-grid">
+                  <label>Clip / Reel label <input id="sub-title" placeholder="e.g. Comeback goal edit" maxlength="150" required /></label>
+                  <label>Platform <select id="sub-platform"><option value="Instagram">Instagram Reels</option><option value="YouTube">YouTube Shorts</option><option value="TikTok">TikTok</option><option value="X">X</option><option value="Other">Other</option></select></label>
+                  <label>Link to REPLAYD export (optional) <select id="sub-clip"><option value="">Not linked / edited elsewhere</option></select></label>
+                  <label>Published Reel URL (optional) <input id="sub-url" placeholder="https://…" maxlength="1000" /></label>
+                  <label>Post date (optional) <input id="sub-date" type="date" /></label>
+                  <label>Video duration · sec (optional) <input id="sub-duration" type="number" min="1" max="3600" /></label>
+                  <label>Public views (optional) <input id="sub-public" type="number" min="0" step="1" placeholder="Views on platform" /></label>
+                  <label>Eligible campaign views <input id="sub-eligible" type="number" min="0" step="1" value="0" required /></label>
+                  <label>Approval status <select id="sub-status"><option value="draft">Draft</option><option value="submitted" selected>Submitted — awaiting approval</option><option value="approved">Approved / billable</option><option value="rejected">Rejected / ineligible</option></select></label>
+                  <label>Editing time · minutes (optional) <input id="sub-minutes" type="number" min="0" step="1" placeholder="e.g. 45" /></label>
+                  <label class="span-full">Notes <textarea id="sub-notes" rows="2" maxlength="1500" placeholder="Approval link, overlay placement, exclusions…"></textarea></label>
+                  <div class="campaign-actions"><button type="submit" class="btn btn-primary" id="submission-save">Save submission ↗</button></div>
+                </form>
+                <p class="hint">Enter *cumulative* eligible views, not daily increments. Updating a submission replaces the count and records a historical snapshot—preventing accidental double-counting.</p>
+              </div>
+              <div class="campaign-payment-grid">
+                <div class="panel">
+                  <div class="panel-top"><div><div class="panel-label">03 / SETTLEMENTS</div><h3>RECORD A PAYMENT</h3></div></div>
+                  <form id="payment-form" class="campaign-form-grid single-column">
+                    <label>Amount received (USD) <input id="pay-amount" type="number" min="0.01" max="1000000" step="0.01" placeholder="e.g. 45.50" required /></label>
+                    <label>Date received <input id="pay-date" type="date" required /></label>
+                    <label>Reference / transaction ID (optional) <input id="pay-reference" maxlength="150" placeholder="Transfer reference" /></label>
+                    <label>Notes (optional) <input id="pay-notes" maxlength="1000" placeholder="Partial payout, adjustment…" /></label>
+                    <button class="btn btn-primary" type="submit">Record payment ↗</button>
+                  </form>
+                </div>
+                <div class="panel">
+                  <div class="panel-top"><div><div class="panel-label">PAYMENT HISTORY</div><h3>SETTLEMENT LEDGER</h3></div></div>
+                  <div id="campaign-payments-list" class="campaign-payments-list"></div>
+                </div>
+              </div>
+              <div class="hint campaign-bottom-warning">Earnings are calculated from YOUR records. REPLAYD does not verify campaign approval, payout policies or actual bank transfers; enter settlements only after receiving payment.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="library" class="view app-view hidden" aria-label="Project library"><div class="page-width"><div class="app-head"><div><div class="eyebrow compact">/ WORKSPACE <span class="accent-divider">›</span> LIBRARY</div><h1>YOUR <span class="lime">PLAYBOOK.</span></h1><p>Locally stored sources and rendered clips from this computer.</p></div><button class="btn btn-primary btn-sm" data-view="studio">New clip ↗</button></div><div class="library-grid"><div class="panel"><div class="panel-title">SOURCE PROJECTS</div><div id="projects-list" class="library-list"><div class="loading-placeholder">Loading projects…</div></div></div><div class="panel"><div class="panel-title">RENDERED CLIPS</div><div id="clips-list" class="library-list"><div class="loading-placeholder">Loading clips…</div></div></div></div></div></section>
+  </main>
+  <footer class="site-footer"><div class="page-width footer-inner"><div class="footer-brand"><span class="brand-mark">R<span class="slash"></span></span><strong>REPLAYD.</strong><span>BUILT FOR THE BEAUTIFUL GAME.</span></div><div class="footer-right"><span>LOCAL-FIRST / NO MANDATORY API KEYS</span><span>© 2026 REPLAYD · PORTFOLIO MVP</span></div></div></footer>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="/static/app.js?v=0.6.0" defer></script>
+  <script src="/static/campaigns.js?v=0.6.0" defer></script>
+  <script src="/static/analytics.js?v=0.6.0" defer></script>
+</body>
+</html>

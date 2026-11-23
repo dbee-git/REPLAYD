@@ -1,0 +1,39 @@
+# Virtual environments and Python caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local creator projects, private earnings, SQLite, rendered footage
+.local_data/
+*.sqlite3
+*.sqlite3-shm
+*.sqlite3-wal
+*.db
+*.db-wal
+*.db-shm
+uploads/
+renders/
+private/
+evaluation/results/
+evaluation/labels.csv
+evaluation/private_*
+
+# Environment secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Local generated/demo recordings & system files
+*.webm
+*.mov
+.DS_Store
+Thumbs.db
+# Generated synthetic demo exports
+demo_output/
