@@ -6,6 +6,13 @@ REPLAYD helps an editor find promising moments, review the suggested timestamps,
 
 > **Portfolio release v1.0.** This repository freezes the tested v0.6 product interface and adds reproducible evaluation, developer documentation and CI. It does **not** claim trained goal recognition, verified accuracy on external football datasets or increased engagement.
 
+
+## 🎬 Watch REPLAYD in Action
+
+[▶ Watch the 92-second REPLAYD Demo](https://github.com/user-attachments/assets/3e7ff4d2-4bef-4f0a-b246-ee7e72c84271)
+
+[View v1.0 Release](https://github.com/dbee-git/REPLAYD/releases/tag/v1.0.0)
+  
 ![REPLAYD landing page](docs/screenshots/landing.png)
 
 **Application previews:** [Studio with synthetic signal](docs/screenshots/studio-synthetic.png) · [Analytics with fictional data](docs/screenshots/analytics.png) · [Campaign Hub](docs/screenshots/campaigns.png)
